@@ -1,0 +1,131 @@
+/* Kari Tanner */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'OCR A Std', monospace;
+    line-height: 1.8;
+    color: #0d4447;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+/* Background Image with Transparency */
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('re-4-background.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #176072;
+    color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #313028;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: rgb(152, 202, 199);
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #e7b510;
+    margin: 15px 0;
+}
+
+/* Link Styles */
+header a {
+    color: #aae5eb;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #e7b510;
+    text-decoration: underline;
+}
+
+section a {
+    color: #176072;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+section a:hover {
+    color: #e7b510;
+    text-decoration: underline;
+}
+
+footer a {
+    color: #aae5eb;
+    transition: color 0.3s
+}
+
+footer a:hover {
+    color: #e7b510
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #e7b510;
+}
+
+/* List Styles */
+ul, ol {
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    list-style-type: square;
+    color: #000000;
+}
+
+/* Footer Styles */
+footer {
+    color: rgb(152, 202, 199);
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #176072;
+    color: white;
+    border-radius: 8px;
+}
